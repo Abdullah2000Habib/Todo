@@ -1,0 +1,45 @@
+.todoListWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 2rem;
+    color: black;
+}
+
+
+.todoListWrapper h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.todoListWrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.todoListWrapper table thead {
+    background-color: rgb(197, 197, 197);
+}
+
+.todoListWrapper table thead tr th {
+    color: rgb(93, 92, 92);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.showMoreBtn {
+    padding: 3rem;
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

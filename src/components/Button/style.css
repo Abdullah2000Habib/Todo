@@ -1,0 +1,21 @@
+.btt {
+    width: fit-content;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: blue;
+}
+
+.bgPrimary {
+    background-color: rgb(70, 128, 91);
+    filter: drop-shadow(0 0 4px #04ed4a);
+}
+
+.bgSecondary {
+    background-color: rgb(240, 64, 64);
+    filter: drop-shadow(0 0 4px #ed0404);
+}
